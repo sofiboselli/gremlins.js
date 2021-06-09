@@ -19,7 +19,8 @@
         "deploy-gh-pages": "gh-pages --dist bookmarklet",
         "doctoc": "doctoc README.md",
         "cypress:open": "cypress open",
-        "cypress:run": "cypress run"
+        "cypress:run": "cypress run",
+        "prepare": "npm run build"
     },
     "repository": {
         "type": "git",
